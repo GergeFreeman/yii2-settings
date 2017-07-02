@@ -70,7 +70,7 @@ class SettingsAction extends Action
     /**
      * @var string
      */
-    public $sectionSettings;
+    public $sectionName;
 
     /**
      * @var string message to be set on successful save a model
@@ -171,8 +171,8 @@ class SettingsAction extends Action
      */
     protected function getSection(Model $model)
     {
-        if ($this->sectionSettings) {
-            return $this->sectionSettings;
+        if ($this->sectionName) {
+            return $this->sectionName;
         }
 
         return $model->formName();
