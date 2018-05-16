@@ -1,5 +1,5 @@
 {
-    "name": "yii2mod/yii2-settings",
+    "name": "h0rseduck/yii2-settings",
     "description": "Yii2 Settings Module",
     "type": "yii2-extension",
     "keywords": [
@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Igor Chepurnoy",
-            "email": "igorzfort@gmail.com"
+            "name": "h0rseduck",
+            "email": "y@govnokot.ru"
         }
     ],
     "require": {
