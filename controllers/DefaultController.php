@@ -6,7 +6,7 @@ use Yii;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use h0rseduck\editable\EditableAction;
+use yii2mod\editable\EditableAction;
 use h0rseduck\settings\models\SettingModel;
 
 /**

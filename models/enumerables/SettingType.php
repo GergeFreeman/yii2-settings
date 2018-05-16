@@ -2,7 +2,7 @@
 
 namespace h0rseduck\settings\models\enumerables;
 
-use h0rseduck\enum\helpers\BaseEnum;
+use yii2mod\enum\helpers\BaseEnum;
 
 /**
  * Class SettingStatus
