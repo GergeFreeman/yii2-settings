@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2mod\settings\tests\actions;
+namespace h0rseduck\settings\tests\actions;
 
 use Yii;
 use yii\base\Model;
-use yii2mod\settings\actions\SettingsAction;
-use yii2mod\settings\tests\data\ConfigurationForm;
-use yii2mod\settings\tests\TestCase;
+use h0rseduck\settings\actions\SettingsAction;
+use h0rseduck\settings\tests\data\ConfigurationForm;
+use h0rseduck\settings\tests\TestCase;
 
 class SettingsActionTest extends TestCase
 {

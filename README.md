@@ -2,8 +2,8 @@ Yii2 Settings
 =============
 Simple Yii2 settings extension
 
-[![Latest Stable Version](https://poser.pugx.org/yii2mod/yii2-settings/v/stable)](https://packagist.org/packages/yii2mod/yii2-settings) [![Total Downloads](https://poser.pugx.org/yii2mod/yii2-settings/downloads)](https://packagist.org/packages/yii2mod/yii2-settings) [![License](https://poser.pugx.org/yii2mod/yii2-settings/license)](https://packagist.org/packages/yii2mod/yii2-settings)
-[![Build Status](https://travis-ci.org/yii2mod/yii2-settings.svg?branch=master)](https://travis-ci.org/yii2mod/yii2-settings)
+[![Latest Stable Version](https://poser.pugx.org/h0rseduck/yii2-settings/v/stable)](https://packagist.org/packages/h0rseduck/yii2-settings) [![Total Downloads](https://poser.pugx.org/h0rseduck/yii2-settings/downloads)](https://packagist.org/packages/h0rseduck/yii2-settings) [![License](https://poser.pugx.org/h0rseduck/yii2-settings/license)](https://packagist.org/packages/h0rseduck/yii2-settings)
+[![Build Status](https://travis-ci.org/h0rseduck/yii2-settings.svg?branch=master)](https://travis-ci.org/h0rseduck/yii2-settings)
 
 Installation   
 ------------
@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yii2mod/yii2-settings "*"
+php composer.phar require --prefer-dist h0rseduck/yii2-settings "*"
 ```
 
 or add
 
 ```json
-"yii2mod/yii2-settings": "*"
+"h0rseduck/yii2-settings": "*"
 ```
 
 to the require section of your composer.json.
@@ -32,7 +32,7 @@ Configuration
 Before usage this extension, we'll also need to prepare the database.
 
 ```
-php yii migrate --migrationPath=@vendor/yii2mod/yii2-settings/migrations
+php yii migrate --migrationPath=@vendor/h0rseduck/yii2-settings/migrations
 ```
 
 **Module Setup**
@@ -42,13 +42,13 @@ To access the module, you need to configure the modules array in your applicatio
 'admin' => [
     'modules' => [
         'settings' => [
-            'class' => 'yii2mod\settings\Module',
+            'class' => 'h0rseduck\settings\Module',
             // Also you can override some controller properties in following way:
             'controllerMap' => [
                 'default' => [
-                    'class' => 'yii2mod\settings\controllers\DefaultController',
+                    'class' => 'h0rseduck\settings\controllers\DefaultController',
                     'searchClass' => [
-                        'class' => 'yii2mod\settings\models\search\SettingSearch',
+                        'class' => 'h0rseduck\settings\models\search\SettingSearch',
                         'pageSize' => 25
                     ],
                     'modelClass' => 'Your own model class',
@@ -70,7 +70,7 @@ To use the Setting Component, you need to configure the components array in your
 ```php
 'components' => [
     'settings' => [
-        'class' => 'yii2mod\settings\components\Settings',
+        'class' => 'h0rseduck\settings\components\Settings',
     ],
 ]
 ```
@@ -203,7 +203,7 @@ class SiteController extends Controller
     {
         return [
             'manage-settings' => [
-                'class' => \yii2mod\settings\actions\SettingsAction::class,
+                'class' => \h0rseduck\settings\actions\SettingsAction::class,
                 // also you can use events as follows:
                 'on beforeSave' => function ($event) {
                     // your custom code
@@ -225,7 +225,7 @@ class SiteController extends Controller
 Internationalization
 ----------------------
 
-All text and messages introduced in this extension are translatable under category 'yii2mod.settings'.
+All text and messages introduced in this extension are translatable under category 'h0rseduck.settings'.
 You may use translations provided within this extension, using following application configuration:
 
 ```php
@@ -233,9 +233,9 @@ return [
     'components' => [
         'i18n' => [
             'translations' => [
-                'yii2mod.settings' => [
+                'h0rseduck.settings' => [
                     'class' => 'yii\i18n\PhpMessageSource',
-                    'basePath' => '@yii2mod/settings/messages',
+                    'basePath' => '@h0rseduck/settings/messages',
                 ],
                 // ...
             ],

@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2mod\settings\models\enumerables;
+namespace h0rseduck\settings\models\enumerables;
 
-use yii2mod\enum\helpers\BaseEnum;
+use h0rseduck\enum\helpers\BaseEnum;
 
 /**
  * Class SettingStatus
  *
- * @package yii2mod\settings\models\enumerables
+ * @package h0rseduck\settings\models\enumerables
  */
 class SettingType extends BaseEnum
 {
@@ -20,7 +20,7 @@ class SettingType extends BaseEnum
     /**
      * @var string message category
      */
-    public static $messageCategory = 'yii2mod.settings';
+    public static $messageCategory = 'h0rseduck.settings';
 
     /**
      * @var array

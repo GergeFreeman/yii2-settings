@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\settings\tests\data;
+namespace h0rseduck\settings\tests\data;
 
 use yii\base\Model;
 

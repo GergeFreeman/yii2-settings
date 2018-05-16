@@ -1,14 +1,14 @@
 <?php
 
-namespace yii2mod\settings\models;
+namespace h0rseduck\settings\models;
 
 use yii\db\ActiveQuery;
-use yii2mod\settings\models\enumerables\SettingStatus;
+use h0rseduck\settings\models\enumerables\SettingStatus;
 
 /**
  * Class SettingQuery
  *
- * @package yii2mod\settings\models
+ * @package h0rseduck\settings\models
  */
 class SettingQuery extends ActiveQuery
 {

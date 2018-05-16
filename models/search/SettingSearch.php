@@ -1,14 +1,14 @@
 <?php
 
-namespace yii2mod\settings\models\search;
+namespace h0rseduck\settings\models\search;
 
 use yii\data\ActiveDataProvider;
-use yii2mod\settings\models\SettingModel;
+use h0rseduck\settings\models\SettingModel;
 
 /**
  * Class SettingSearch
  *
- * @package yii2mod\settings\models\search
+ * @package h0rseduck\settings\models\search
  */
 class SettingSearch extends SettingModel
 {

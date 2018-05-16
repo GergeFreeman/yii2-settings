@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\settings\events;
+namespace h0rseduck\settings\events;
 
 use yii\base\Event;
 use yii\base\Model;
@@ -8,7 +8,7 @@ use yii\base\Model;
 /**
  * Class FormEvent
  *
- * @package yii2mod\settings\events
+ * @package h0rseduck\settings\events
  */
 class FormEvent extends Event
 {

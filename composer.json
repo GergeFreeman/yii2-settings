@@ -22,8 +22,8 @@
     "require": {
         "php": ">=5.5",
         "yiisoft/yii2": ">=2.0.8",
-        "yii2mod/yii2-editable": "*",
-        "yii2mod/yii2-enum": "*"
+        "h0rseduck/yii2-editable": "*",
+        "h0rseduck/yii2-enum": "*"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "~2.0"

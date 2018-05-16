@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2mod\settings\models;
+namespace h0rseduck\settings\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\helpers\ArrayHelper;
-use yii2mod\settings\models\enumerables\SettingStatus;
-use yii2mod\settings\models\enumerables\SettingType;
+use h0rseduck\settings\models\enumerables\SettingStatus;
+use h0rseduck\settings\models\enumerables\SettingType;
 
 /**
  * This is the model class for table "{{%setting}}".
@@ -55,15 +55,15 @@ class SettingModel extends ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => Yii::t('yii2mod.settings', 'ID'),
-            'type' => Yii::t('yii2mod.settings', 'Type'),
-            'section' => Yii::t('yii2mod.settings', 'Section'),
-            'key' => Yii::t('yii2mod.settings', 'Key'),
-            'value' => Yii::t('yii2mod.settings', 'Value'),
-            'status' => Yii::t('yii2mod.settings', 'Status'),
-            'description' => Yii::t('yii2mod.settings', 'Description'),
-            'created_at' => Yii::t('yii2mod.settings', 'Created Date'),
-            'updated_at' => Yii::t('yii2mod.settings', 'Updated Date'),
+            'id' => Yii::t('h0rseduck.settings', 'ID'),
+            'type' => Yii::t('h0rseduck.settings', 'Type'),
+            'section' => Yii::t('h0rseduck.settings', 'Section'),
+            'key' => Yii::t('h0rseduck.settings', 'Key'),
+            'value' => Yii::t('h0rseduck.settings', 'Value'),
+            'status' => Yii::t('h0rseduck.settings', 'Status'),
+            'description' => Yii::t('h0rseduck.settings', 'Description'),
+            'created_at' => Yii::t('h0rseduck.settings', 'Created Date'),
+            'updated_at' => Yii::t('h0rseduck.settings', 'Updated Date'),
         ];
     }
 

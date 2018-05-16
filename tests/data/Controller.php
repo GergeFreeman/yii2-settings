@@ -1,11 +1,11 @@
 <?php
 
-namespace yii2mod\settings\tests\data;
+namespace h0rseduck\settings\tests\data;
 
 /**
  * Class Controller
  *
- * @package yii2mod\settings\tests\data
+ * @package h0rseduck\settings\tests\data
  */
 class Controller extends \yii\web\Controller
 {

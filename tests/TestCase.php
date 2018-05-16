@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2mod\settings\tests;
+namespace h0rseduck\settings\tests;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use yii2mod\settings\tests\data\Controller;
+use h0rseduck\settings\tests\data\Controller;
 
 /**
  * This is the base class for all yii framework unit tests.
@@ -47,16 +47,16 @@ class TestCase extends \PHPUnit\Framework\TestCase
                     'scriptUrl' => 'index.php',
                 ],
                 'settings' => [
-                    'class' => 'yii2mod\settings\components\Settings',
+                    'class' => 'h0rseduck\settings\components\Settings',
                 ],
                 'cache' => [
                     'class' => 'yii\caching\ArrayCache',
                 ],
                 'i18n' => [
                     'translations' => [
-                        'yii2mod.settings' => [
+                        'h0rseduck.settings' => [
                             'class' => 'yii\i18n\PhpMessageSource',
-                            'basePath' => '@yii2mod/settings/messages',
+                            'basePath' => '@h0rseduck/settings/messages',
                         ],
                     ],
                 ],

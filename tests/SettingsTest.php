@@ -1,14 +1,14 @@
 <?php
 
-namespace yii2mod\settings\tests;
+namespace h0rseduck\settings\tests;
 
 use Yii;
-use yii2mod\settings\models\enumerables\SettingType;
+use h0rseduck\settings\models\enumerables\SettingType;
 
 /**
  * Class SettingsTest
  *
- * @package yii2mod\settings\tests
+ * @package h0rseduck\settings\tests
  */
 class SettingsTest extends TestCase
 {
