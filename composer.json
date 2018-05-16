@@ -11,6 +11,10 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Igor Chepurnoy",
+            "email": "igorzfort@gmail.com"
+        },
+        {
             "name": "h0rseduck",
             "email": "y@govnokot.ru"
         }
