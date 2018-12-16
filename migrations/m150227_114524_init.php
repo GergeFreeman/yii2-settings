@@ -8,7 +8,7 @@ use yii\db\Migration;
 class m150227_114524_init extends Migration
 {
     /**
-     * This method contains the logic to be executed when applying this migration.
+     * @inheritdoc
      */
     public function up()
     {
@@ -31,7 +31,7 @@ class m150227_114524_init extends Migration
     }
 
     /**
-     * This method contains the logic to be executed when removing this migration.
+     * @inheritdoc
      */
     public function down()
     {
