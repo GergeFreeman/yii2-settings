@@ -144,6 +144,10 @@ class SettingModel extends ActiveRecord
      */
     public function setSetting($section, $key, $value, $type = null)
     {
+        if (empty($value) && !is_numeric($value)) {
+            static::deleteAll(['section' => $section, 'key' => $key]);
+            return true;
+        }
         $model = static::findOne(['section' => $section, 'key' => $key]);
 
         if (empty($model)) {
